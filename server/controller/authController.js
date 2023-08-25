@@ -11,8 +11,7 @@ export const signUpController = async (req,res) => {
                age , 
                gender , 
                email , 
-               password , 
-               confirmpassword
+               password 
         } = req.body;
 
         if(!firstname || !lastname || !age || !gender || !email || !password ){
@@ -51,6 +50,8 @@ export const signUpController = async (req,res) => {
         })
     }
 }
+
+
 
 
 // to sign-in

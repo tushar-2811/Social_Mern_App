@@ -1,0 +1,43 @@
+.mainForm{
+
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+  
+    
+}
+
+.formPhoto{
+    width: 40%;
+    /* border: 2px solid black; */
+    background-image: url('https://images.pexels.com/photos/2055500/pexels-photo-2055500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    /* background-image: url('https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80'); */
+    /* background-image:url('https://plus.unsplash.com/premium_photo-1681987447646-eb8718395e93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form{
+    width: 60%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formData{
+    border-top: 2px solid red;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
+}

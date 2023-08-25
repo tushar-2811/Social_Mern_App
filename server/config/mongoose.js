@@ -1,5 +1,7 @@
 import mongoose , { mongo } from 'mongoose';
 
+
+
 mongoose.connect("mongodb+srv://tusharrawat52:lSyJk6ZrkfesyxpL@cluster0.tz8zdjw.mongodb.net/SocialApp?retryWrites=true&w=majority");
 
 const db = mongoose.connection;
@@ -12,3 +14,5 @@ db.once('open' , function(){
 
 
 export default db;
+
+
